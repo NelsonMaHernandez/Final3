@@ -1,0 +1,43 @@
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ConfigReader {
+
+	
+	private static Properties configObject() {
+		
+	
+		
+		try {
+			
+			String filePath = "src/test/resources/propertiesFolder/configuration.properties";
+		
+			FileInputStream input = new FileInputStream(filePath);
+			configObject = new Properties();
+			
+			
+			
+			
+			
+			
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+
+public static String getProperties(String keyName) {
+	return configObject.getProperties(keyName);
+}
+}

@@ -1,0 +1,17 @@
+package utilities;
+
+import org.openqa.selenium.WebDriver;
+
+public class Driver {
+
+	public static WebDriver driver;
+	
+	
+	public static WebDriver getDriver() {
+		
+		Switch()
+		}
+		
+		return driver;
+	}
+}
